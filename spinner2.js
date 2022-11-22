@@ -1,8 +1,8 @@
 // process.stdout.write('hello from spinner1.js.... \rheyyy\n');
 let time = 100;
-let writeArr = ['\r|    ', '\r/    ', '\r-    ', "\r\\   "];
+// let writeArr = ['\r|    ', '\r/    ', '\r-    ', "\r\\   "];
 const characters = "|/-\\";
-let index = 0;
+// let index = 0;
 
 for (let char of characters) {
   setTimeout(() => {
